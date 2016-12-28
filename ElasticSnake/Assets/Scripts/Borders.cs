@@ -1,14 +1,23 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Borders : MonoBehaviour {
+    private new AudioSource audio;
 
-	void OnTriggerEnter(Collider other)
+    void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
+    void OnTriggerEnter(Collider other)
 	{
 		
 		if(other.CompareTag("SnakeMain"))
 		{
-				Application.LoadLevel(Application.loadedLevel);
+            audio.Play();
+            SceneManager.LoadScene("GameOver");
+            
+				//Application.LoadLevel(Application.loadedLevel);
 		}
 
 	}

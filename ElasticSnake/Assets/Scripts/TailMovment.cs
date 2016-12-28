@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class TailMovment : MonoBehaviour {
@@ -29,7 +30,7 @@ public class TailMovment : MonoBehaviour {
 		{
 			if(indx > 2)
 			{
-				Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene("GameOver");
 			}
 		}
 

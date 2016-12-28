@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSnake.CSharp", "ElasticSnake.CSharp.csproj", "{7EF60C16-8F92-1705-4F49-8E3EFFDC634B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSnake.CSharp.Editor", "ElasticSnake.CSharp.Editor.csproj", "{5945C82E-6E2E-8CE0-FBAD-3A93137E8758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF60C16-8F92-1705-4F49-8E3EFFDC634B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF60C16-8F92-1705-4F49-8E3EFFDC634B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF60C16-8F92-1705-4F49-8E3EFFDC634B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF60C16-8F92-1705-4F49-8E3EFFDC634B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5945C82E-6E2E-8CE0-FBAD-3A93137E8758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5945C82E-6E2E-8CE0-FBAD-3A93137E8758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5945C82E-6E2E-8CE0-FBAD-3A93137E8758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5945C82E-6E2E-8CE0-FBAD-3A93137E8758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
